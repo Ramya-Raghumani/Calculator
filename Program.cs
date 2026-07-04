@@ -11,7 +11,7 @@ class Program
         Console.WriteLine("Subtraction = " + (num1 - num2));
         Console.WriteLine("Multiplication = " + (num1 * num2));
         if (num2 != 0)
-            Console.WriteLine("Division = " + (num1 / num2));
+            Console.WriteLine("Division = " + ((double)num1 / num2));
         else
             Console.WriteLine("Division by zero is not allowed");
     }
